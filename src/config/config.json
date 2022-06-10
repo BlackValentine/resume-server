@@ -3,7 +3,7 @@
     "username": "root",
     "password": "chiemtao",
     "database": "admin_user",
-    "host": "127.0.0.1",
+    "host": "103.75.184.133",
     "dialect": "mysql",
     "logging": false,
     "query": {
@@ -22,7 +22,7 @@
     "username": "root",
     "password": "chiemtao",
     "database": "admin_user",
-    "host": "127.0.0.1",
+    "host": "103.75.184.133",
     "dialect": "mysql",
     "logging": false,
     "query": {
