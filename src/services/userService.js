@@ -35,7 +35,7 @@ const loginUser = (data) => {
       if (isExist) {
         const user = await db.User.findOne({
           where: { email: data.email },
-          attributes: ["email", "username", "password"]
+          attributes: ["email", "userName", "password"]
         });
         if (user) {
           const check = await bcrypt.compareSync(

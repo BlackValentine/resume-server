@@ -26,12 +26,12 @@ initWebRoutes(app);
 
 connectDB();
 
+let port = process.env.PORT || 8080;
+
+app.get('/', (req, res) => {
+  res.send('Server is running')
+})
+
 app.listen(port, () => {
   console.log(`Server running on port : ${port}`)
 })
-
-app.get('/', (req, res) => {
-  res.send('This is an server')
-})
-
-let port = process.env.PORT || 8080;
